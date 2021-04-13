@@ -13,7 +13,7 @@ download annotation json file after dealing all images.
 2) executing coco_keypoint_datasets.py for making COCO format json file.
 command: python coco_keypoint_datasets.py --path /your/root/path
 file directory should be
---> root/
-    --> label/
-    --> image/
+- root/
+    - label/
+    - image/
 
