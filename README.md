@@ -2,6 +2,8 @@
 Training Centernet with custom COCO datasets.
 
 step 1. set up environmet.
+- https://github.com/xingyizhou/CenterNet.git
+- we are going to use Xingyi Zhou's model.
 
 step 2. making custom datasets via supervisely and coco_keypoint_datasets.py
 1) making label with locations of box and keypoints.
