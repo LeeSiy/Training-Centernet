@@ -15,7 +15,7 @@ args = parser.parse_args()
 if args.path:
     base_path = args.path
 else:
-    base_path  = '/home/softonnet/temp/label' # default value of root path
+    base_path  = '' # default value of root path
 
 
 suffix = datetime.datetime.now().strftime("%y%m%d_%H%M%S")
@@ -34,7 +34,7 @@ coco_data['info'].append({
 	})
 coco_data['licenses'] = []
 coco_data['licenses'].append({
-		"url": "http://softonnet.com",
+		"url": "",
 		"id": 1,
 		"name": ""
 	})
