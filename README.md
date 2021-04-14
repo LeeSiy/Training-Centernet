@@ -8,6 +8,13 @@ Training Centernet with custom COCO datasets.
 - numpy == 1.18.5
 - https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/tf2.md
     - When you install object detection API, do pip install tf-models-official==2.3.0 before installing object detection API
+- If an error "~expected "required", "optional", or "repeated"." occurs, do following steps
+    - home/user$ mkdir protoc_3.3
+    - cd protoc_3.3
+    - home/user/protoc_3.3$ wget wget https://github.com/google/protobuf/releases/download/v3.3.0/protoc-3.3.0-linux-x86_64.zip
+    - home/user/protoc_3.3$ unzip protoc-3.3.0-linux-x86_64.zip
+    - home/user/protoc_3.3$ cd ../models/
+    - home/user/protoc_3.3$ /home/user/protoc_3.3/bin/protoc object_detection/protos/*.proto --python_out=.
 
 ## step 2-1. making custom datasets via supervisely and coco_keypoint_datasets.py
 1) making label with locations of box and keypoints.
