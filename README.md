@@ -34,3 +34,6 @@ Training Centernet with custom COCO datasets.
       --val_annotations_file="${VAL_ANNOTATIONS_FILE}" \
       --testdev_annotations_file="${TESTDEV_ANNOTATIONS_FILE}" \
       --output_dir="${OUTPUT_DIR}" 
+      
+## step 3 modify your pipeline config file 
+ 
