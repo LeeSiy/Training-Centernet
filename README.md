@@ -36,4 +36,5 @@ Training Centernet with custom COCO datasets.
       --output_dir="${OUTPUT_DIR}" 
       
 ## step 3 modify your pipeline config file 
- 
+- files are located on "models/research/object_detection/configs/tf2"
+- modify your pipeline upto model
