@@ -45,3 +45,6 @@ Training Centernet with custom COCO datasets.
 ## step 3 modify your pipeline config file 
 - files are located on "models/research/object_detection/configs/tf2"
 - modify your pipeline upto model
+    - ex) feature_extractor, keypoints, number of keypoints, image size, label_map .....
+    - ![Screenshot from 2021-04-15 09-02-12](https://user-images.githubusercontent.com/62841284/114795554-c9873200-9dc9-11eb-8c52-d2e1c31bd8e4.png)
+ 
